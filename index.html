@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Stoothie — the all-natural campus smoothie by stads student association." />
+  <meta name="theme-color" content="#7c3aed" />
+  <title>Stoothie — by stads</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="nav" id="nav">
+    <div class="nav__brand">sto<span>othie</span></div>
+    <ul class="nav__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#flavors">Flavors</a></li>
+      <li><a href="#ingredients">Ingredients</a></li>
+      <li><a href="#order" class="btn btn--nav">Order</a></li>
+    </ul>
+    <button class="nav__burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero__content">
+      <p class="hero__eyebrow">by <strong>stads</strong></p>
+      <h1 class="hero__heading">
+        Blend&nbsp;In.<br />
+        <em>Stand&nbsp;Out.</em>
+      </h1>
+      <p class="hero__sub">
+        The smoothie born on campus. All natural, all energy,
+        all vibes — crafted by students, for students.
+      </p>
+      <div class="hero__cta">
+        <a href="#order" class="btn btn--primary">Get Yours &rarr;</a>
+        <a href="#about" class="btn btn--ghost">Our Story</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <strong class="stat__num" data-target="100">0</strong>
+          <span>% Natural</span>
+        </div>
+        <div class="stat">
+          <strong class="stat__num" data-target="3">0</strong>
+          <span>&nbsp;Flavors</span>
+        </div>
+        <div class="stat">
+          <strong class="stat__num" data-target="350">0</strong>
+          <span>ml per cup</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__visual" aria-hidden="true">
+      <div class="blob blob--1"></div>
+      <div class="blob blob--2"></div>
+      <div class="blob blob--3"></div>
+      <div class="cup">
+        <div class="cup__straw"></div>
+        <div class="cup__body">
+          <div class="cup__liquid">
+            <div class="cup__foam"></div>
+            <div class="cup__bubble cup__bubble--1"></div>
+            <div class="cup__bubble cup__bubble--2"></div>
+            <div class="cup__bubble cup__bubble--3"></div>
+          </div>
+        </div>
+        <div class="cup__base"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Features / About ===== -->
+  <section class="features" id="about">
+    <div class="container">
+      <header class="section-header">
+        <p class="section-eyebrow">Why Stoothie?</p>
+        <h2>More than a smoothie</h2>
+      </header>
+      <div class="features__grid">
+        <article class="feature-card js-reveal">
+          <div class="feature-card__icon">&#127807;</div>
+          <h3>100% Natural</h3>
+          <p>Zero artificial colours, zero preservatives. Just real fruit, blended fresh every morning.</p>
+        </article>
+        <article class="feature-card js-reveal">
+          <div class="feature-card__icon">&#9889;</div>
+          <h3>Brain Fuel</h3>
+          <p>Vitamins, natural sugars and good fats — everything you need to power through that 8&nbsp;AM lecture.</p>
+        </article>
+        <article class="feature-card js-reveal">
+          <div class="feature-card__icon">&#127891;</div>
+          <h3>Campus-Made</h3>
+          <p>Every cup is made by stads members. Your purchase goes straight back into student life.</p>
+        </article>
+        <article class="feature-card js-reveal">
+          <div class="feature-card__icon">&#9851;</div>
+          <h3>Eco Cups</h3>
+          <p>100% compostable cups and paper straws — enjoy it completely guilt-free.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Flavors ===== -->
+  <section class="flavors" id="flavors">
+    <div class="container">
+      <header class="section-header section-header--light">
+        <p class="section-eyebrow section-eyebrow--light">Our Range</p>
+        <h2 class="text-light">Pick Your Vibe</h2>
+      </header>
+      <div class="flavors__grid">
+
+        <article class="flavor-card js-reveal" data-flavor="berry">
+          <div class="flavor-card__visual" style="--flavor-color:#6d28d9;--flavor-color-light:#c4b5fd;">
+            <div class="flavor-card__blob"></div>
+            <span class="flavor-card__emoji">&#129744;</span>
+          </div>
+          <div class="flavor-card__body">
+            <div class="flavor-card__badges">
+              <span class="badge badge--popular">&#11088; Most Popular</span>
+            </div>
+            <h3>Berry Blast</h3>
+            <p>Blueberry, raspberry and blackcurrant. Bold, antioxidant-rich, and seriously addictive.</p>
+            <div class="flavor-card__pills">
+              <span class="pill">&#129744; Blueberry</span>
+              <span class="pill">&#127815; Raspberry</span>
+              <span class="pill">&#127826; Blackcurrant</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="flavor-card js-reveal" data-flavor="tropical">
+          <div class="flavor-card__visual" style="--flavor-color:#d97706;--flavor-color-light:#fde68a;">
+            <div class="flavor-card__blob"></div>
+            <span class="flavor-card__emoji">&#129389;</span>
+          </div>
+          <div class="flavor-card__body">
+            <div class="flavor-card__badges">
+              <span class="badge badge--new">&#10024; New</span>
+            </div>
+            <h3>Tropical Storm</h3>
+            <p>Mango, pineapple and passionfruit. Close your eyes — you're basically on holiday.</p>
+            <div class="flavor-card__pills">
+              <span class="pill">&#129389; Mango</span>
+              <span class="pill">&#127821; Pineapple</span>
+              <span class="pill">&#127775; Passionfruit</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="flavor-card js-reveal" data-flavor="green">
+          <div class="flavor-card__visual" style="--flavor-color:#059669;--flavor-color-light:#a7f3d0;">
+            <div class="flavor-card__blob"></div>
+            <span class="flavor-card__emoji">&#129373;</span>
+          </div>
+          <div class="flavor-card__body">
+            <div class="flavor-card__badges">
+              <span class="badge badge--healthy">&#128170; Healthiest</span>
+            </div>
+            <h3>Green Machine</h3>
+            <p>Spinach, kiwi, apple and a kick of ginger. Don't let the colour fool you — it's delicious.</p>
+            <div class="flavor-card__pills">
+              <span class="pill">&#129373; Kiwi</span>
+              <span class="pill">&#127823; Apple</span>
+              <span class="pill">&#127807; Spinach</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Ingredients ===== -->
+  <section class="ingredients" id="ingredients">
+    <div class="container">
+      <header class="section-header">
+        <p class="section-eyebrow">Transparency First</p>
+        <h2>What's Inside</h2>
+      </header>
+      <div class="ingredients__layout">
+        <div class="ingredients__orbit" aria-hidden="true">
+          <div class="orbit__ring"></div>
+          <div class="orbit__center">Stoothie</div>
+          <div class="orbit__satellite orbit__satellite--1">&#127827;</div>
+          <div class="orbit__satellite orbit__satellite--2">&#127820;</div>
+          <div class="orbit__satellite orbit__satellite--3">&#129371;</div>
+          <div class="orbit__satellite orbit__satellite--4">&#127855;</div>
+          <div class="orbit__satellite orbit__satellite--5">&#127807;</div>
+          <div class="orbit__satellite orbit__satellite--6">&#129701;</div>
+        </div>
+        <div class="ingredients__list">
+          <div class="ingredient js-reveal">
+            <span class="ingredient__icon">&#127827;</span>
+            <div><strong>Fresh Strawberries</strong><p>Locally sourced, in season</p></div>
+          </div>
+          <div class="ingredient js-reveal">
+            <span class="ingredient__icon">&#127820;</span>
+            <div><strong>Ripe Banana</strong><p>Natural sweetness &amp; creaminess</p></div>
+          </div>
+          <div class="ingredient js-reveal">
+            <span class="ingredient__icon">&#129371;</span>
+            <div><strong>Oat Milk</strong><p>Dairy-free &amp; campus-friendly</p></div>
+          </div>
+          <div class="ingredient js-reveal">
+            <span class="ingredient__icon">&#127855;</span>
+            <div><strong>Local Honey</strong><p>From a nearby beekeeper</p></div>
+          </div>
+          <div class="ingredient js-reveal">
+            <span class="ingredient__icon">&#127807;</span>
+            <div><strong>Fresh Mint</strong><p>A refreshing finish</p></div>
+          </div>
+          <div class="ingredient js-reveal">
+            <span class="ingredient__icon">&#129701;</span>
+            <div><strong>Crushed Ice</strong><p>Perfectly chilled, every time</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA / Order ===== -->
+  <section class="cta-section" id="order">
+    <div class="container">
+      <div class="cta-section__inner js-reveal">
+        <p class="section-eyebrow section-eyebrow--light">Find Us</p>
+        <h2 class="text-light">Ready to blend<br />into campus life?</h2>
+        <p class="cta-section__sub">New batches brewed fresh every Tuesday and Thursday. Limited cups — get there early.</p>
+        <div class="cta-section__actions">
+          <a href="#" class="btn btn--white btn--large">Find Us on Campus</a>
+          <a href="#" class="btn btn--ghost-light btn--large">Follow @stoothie</a>
+        </div>
+        <div class="cta-section__info">
+          <div class="info-chip">&#128205; Main Campus Hall</div>
+          <div class="info-chip">&#128336; Tue &amp; Thu &middot; 10:00&ndash;14:00</div>
+          <div class="info-chip">&#128182; &euro;3.50 &frasl; cup</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <p class="footer__logo">sto<span>othie</span></p>
+          <p class="footer__tagline">by <strong>stads</strong></p>
+        </div>
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <a href="#about">About</a>
+          <a href="#flavors">Flavors</a>
+          <a href="#ingredients">Ingredients</a>
+          <a href="#order">Order</a>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 stads student association &middot; Made with &#128154; and a blender</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
