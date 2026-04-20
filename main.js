@@ -1,8 +1,3 @@
-/* ================================================
-   Stoothie — main.js
-   Interactions ready to extend on workshop day 2
-   ================================================ */
-
 // ── Nav: add glass effect on scroll ──────────────
 const nav = document.getElementById('nav');
 
@@ -96,3 +91,11 @@ document.querySelectorAll('.flavor-card').forEach((card) => {
     card.classList.add('flavor-card--active');
   });
 });
+
+// ── Button actions: ─────
+function preorder(smoothieID){
+  if(smoothieID === "reenmachine"){
+    console.log("Pre-order triggered")
+  }
+  console.log("Hmm - I don't know the smoothie: " + smoothieID)
+}

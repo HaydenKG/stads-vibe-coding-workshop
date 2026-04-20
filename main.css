@@ -53,6 +53,17 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 /* ── Utility ── */
 .container { width: var(--container); margin-inline: auto; }
 .text-light { color: var(--c-white); }
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-top: 12px;
+}
+.call-to-action-span {
+  color: var(--c-white);
+  font-weight: 500;
+}
 
 /* ── Buttons ── */
 .btn {
